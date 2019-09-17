@@ -1,0 +1,92 @@
+Pass log:
+
+Current OTP: 471010
+After 60 seconds OTP will expired...
+You have: 60 sec
+ You have: 59 sec
+You have: 58 sec
+You have: 57 sec
+471010
+Entered OTP is: ** 471010 **
+OTP verification is pass
+
+
+Failure log:
+
+Current OTP: 471010
+After 60 seconds OTP will expired...
+You have: 60 sec
+ You have: 59 sec
+You have: 58 sec
+You have: 57 sec
+471010
+Entered OTP is: ** 471010 **
+OTP verification is pass
+
+Idle log: autotimeout
+
+Current OTP: 012087
+After 60 seconds OTP will expired...
+You have: 60 sec
+You have: 59 sec
+ You have: 58 sec
+You have: 57 sec
+You have: 56 sec
+You have: 55 sec
+You have: 54 sec
+You have: 53 sec
+You have: 52 sec
+You have: 51 sec
+You have: 50 sec
+You have: 49 sec
+You have: 48 sec
+You have: 47 sec
+You have: 46 sec
+You have: 45 sec
+You have: 44 sec
+You have: 43 sec
+You have: 42 sec
+You have: 41 sec
+You have: 40 sec
+You have: 39 sec
+You have: 38 sec
+You have: 37 sec
+You have: 36 sec
+You have: 35 sec
+You have: 34 sec
+You have: 33 sec
+You have: 32 sec
+You have: 31 sec
+You have: 30 sec
+You have: 29 sec
+You have: 28 sec
+You have: 27 sec
+You have: 26 sec
+You have: 25 sec
+You have: 24 sec
+You have: 23 sec
+You have: 22 sec
+You have: 21 sec
+You have: 20 sec
+You have: 19 sec
+You have: 18 sec
+You have: 17 sec
+You have: 16 sec
+You have: 15 sec
+You have: 14 sec
+You have: 13 sec
+You have: 12 sec
+You have: 11 sec
+You have: 10 sec
+You have: 9 sec
+You have: 8 sec
+You have: 7 sec
+You have: 6 sec
+You have: 5 sec
+You have: 4 sec
+You have: 3 sec
+You have: 2 sec
+You have: 1 sec
+timing out, using default value.
+Entered OTP is: ** None **
+timeout with '0' sec
