@@ -1,0 +1,7 @@
+Main execution class:
+ret_output from CleanWhitespace class: {' E123 yuyu': ' QWEERER', ' Qwerty 22': ' 89RTHHJJ ', 'DDf ': {' MuthUkU fdf ': 'ASDFGFG2 '}}
+
+
+Imported lib class:
+script execution from imported file
+Return output from calling file: {' e123      yuyu': 'QWEerer', ' qwerty   22': '89RThhjj', 'ddf     ': {' muthuku      fdf ': 'asdfgFG2'}}
