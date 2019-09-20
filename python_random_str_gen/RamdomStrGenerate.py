@@ -65,7 +65,7 @@ class RamdomStrGenerate(object):
 
     def random_str_gen(self, list_range=None, generate_type=None, list_count=2, option=None, ignore_spl_char=None):
         '''
-        ..codeauthor:: ms023673
+        ..codeauthor:: Muthukumar Subramanian
         '''
         self.start_range = None
         self.end_range = None
@@ -206,7 +206,7 @@ class RamdomStrGenerate(object):
     '''
     class CustomError(Exception):
         '''
-        ..codeauthor:: ms023673
+        ..codeauthor:: Muthukumar Subramanian
         '''
 
         def __init__(self, value=None):
