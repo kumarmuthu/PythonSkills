@@ -1,0 +1,12 @@
+Note: 
+    Class_1.py is available in import_two_class folder.
+
+OUTPUT:
+self:  <muthu.muthu object at 0x000001989A7E3358>
+connected device
+### Executing ELSE block ###
+self:  <muthu.muthu object at 0x000001989A805F28>
+self:  <class_1.muthu object at 0x000001989A81D518>
+connected device
+### Executing ELSE block ###
+self:  <class_1.muthu object at 0x000001989A8056A0>
