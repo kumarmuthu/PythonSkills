@@ -1,0 +1,16 @@
+Execution class_1:
+
+self:  <__main__.muthu object at 0x0000016978D1DC50>
+connected device
+sending the cmd #####
+disconnecting the device #####
+
+
+Execution class_2:
+
+self:  <class_1.muthu object at 0x0000019E6970F908>
+connected device
+### Executing ELSE block ###
+self:  <__main__.muthu_2 object at 0x0000019E696F62E8>
+session id: 100 config vlan: cofig -p 1/10
+disconnecting the device #####
