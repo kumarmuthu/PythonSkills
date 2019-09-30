@@ -1,0 +1,9 @@
+OUTPUT: (Please ignore sql server login exception)
+Observed exception: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Ser
+ver Driver][DBNETLIB]ConnectionOpen (Connect()). (2)')
+hi i am from muthu method HARDCODE value
+Observed exception: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Ser
+ver Driver][DBNETLIB]ConnectionOpen (Connect()). (2)')
+self dict: {'fail': 'FAIL', 'log_obj': 'overwrite in method muthu', 'user_lib_obj': None, 'cursor_obj': 'HARDCODE value', 'sql_con_obj': None}
+cursor_obj: HARDCODE value
+log_obj: overwrite in method muthu
