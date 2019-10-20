@@ -2,7 +2,7 @@
 
 Covered topics:
 
-	* Import(import two class and importlib util)
+	* Import(import two classes and importlib util)
 	* Logger (filehandling)
 	* Random func
 	* Decorator
