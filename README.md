@@ -1,2 +1,9 @@
 # python3_logic
-Python3 logic
+
+Covered topics:
+	* Import(import two class and importlib util)
+	* Logger (filehandling)
+	* Random func
+	* Decorator
+	* Pyotp
+	* Recursive function
