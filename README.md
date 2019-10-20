@@ -2,9 +2,9 @@
 
 Covered topics:
 
-	* Import(import two class and importlib util)
-	* Logger (filehandling)
-	* Random func
+	* Import (import two classes and importlib util)
+	* Logger (Filehandling)
+	* Random function
 	* Decorator
 	* Pyotp
 	* Recursive function
