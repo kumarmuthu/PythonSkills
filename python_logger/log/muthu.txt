@@ -1,0 +1,9 @@
+2019/10/20 17:00:04 LoggerLib,line: 41     INFO | Logger object is created successfully..
+2019/10/20 17:00:04 LoggerCall,line: 14     INFO | I am from loggercall class
+2019/10/20 17:00:04 LoggerCall,line: 15 CRITICAL | CRIC
+2019/10/20 17:00:04 LoggerCall,line: 16    ERROR | ERR
+2019/10/20 17:00:04 LoggerCall,line: 17  WARNING | WARN
+2019/10/20 17:00:04 LoggerCall,line: 18    DEBUG | debug
+2019/10/20 17:00:04 LoggerCall,line: 19     INFO | qwerty
+2019/10/20 17:00:04 LoggerCall,line: 20     INFO | asdfghjkl
+2019/10/20 17:00:04 LoggerCall,line: 21     INFO | End
