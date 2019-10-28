@@ -9,3 +9,12 @@
 * **Pyotp**
 * **Recursive function**
 * **Error handling**
+* **Thread(threading)**
+* **Abstraction**
+* **Encapsulation**
+* **Polymorphism(Overriding)**
+  * ***defined polymorphic functions***
+  * ***Polymorphism with class methods***
+  * ***Polymorphism with Inheritance***
+  * ***Polymorphism with a Function and objects***
+* **Inheritance**
