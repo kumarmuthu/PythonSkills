@@ -8,3 +8,4 @@
 * **Decorator**
 * **Pyotp**
 * **Recursive function**
+* **Error handling**
