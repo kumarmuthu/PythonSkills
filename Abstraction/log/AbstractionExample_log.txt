@@ -8,9 +8,9 @@
 	TypeError: Can't instantiate abstract class ExecuteScript with abstract methods template_common_method_2
 
 # PASSED:
-	# 1 - I am from Abstract class of method 'template_common_method'
-	# Base_class_return: True, Start
-	# I am from ExecuteScript class
-	# RET: Muthu_Kumar
-	# Hello welcome!!!
-	# RET_2: True
+	 1 - I am from Abstract class of method 'template_common_method'
+	 Base_class_return: True, Start
+	 I am from ExecuteScript class
+	 RET: Muthu_Kumar
+	 Hello welcome!!!
+	 RET_2: True
