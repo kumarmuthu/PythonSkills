@@ -1,7 +1,6 @@
 # OUTPUT:
 	# FAILED:# (Exception will throw if your are not given this Abstract method 'template_common_method_2'
 	# in subclass of "ExecuteScript")
-
 	Traceback (most recent call last):
   	File "C:/Users/ms023673/Documents/AbstractionExample.py", line 85, in <module>
     	cls_obj = ExecuteScript("Muthu","Kumar")
