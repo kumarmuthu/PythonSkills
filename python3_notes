@@ -27,6 +27,25 @@ object:
 	Example:
 	        Suppose you are going to an ATM to withdraw money. You simply insert your card and click some buttons and get the money. You don’t know what is happening internally on press of these buttons. Basically you are hiding unnecessary information from user. So, abstraction is a method to hide internal functionalities from user.
 	
+	Detail explain:
+	A class is called an Abstract class if it contains one or more abstract methods. An abstract method is a method that is declared, but contains no implementation. Abstract classes may not be instantiated, and its abstract methods must be implemented by its subclasses.
+	
+	# Link: https://www.tutorialspoint.com/abstract-base-classes-in-python-abc
+	# Example code:
+	import abc
+	class Shape(metaclass=abc.ABCMeta):
+	   @abc.abstractmethod
+	   def area(self):
+		  pass
+	class Rectangle(Shape):
+	   def __init__(self, x,y):
+		  self.l = x
+		  self.b=y
+	   def area(self):
+		  return self.l*self.b
+	r = Rectangle(10,20)
+	print ('area: ',r.area())
+	
 	Python Encapsulation: Hiding details of a class from other objects.
 	Example:
 			Suppose there is a tree. Now a tree can have its components like root, stem, branches, leaves, flowers and fruits. It has some functionalities like Photosynthesis. But in a single unit we call it a tree. In same way encapsulation is a characteristic to bind data members and functions in single unit.
@@ -42,7 +61,7 @@ object:
 	  def PrintName(self):
 		return self.name +' ' + self.__lastname
 		
-	#Outside class    
+	# Outside class    
 	P = Person()
 	print(P.name)
 	print(P.PrintName())
@@ -286,6 +305,7 @@ object:
 		   
 		func(obj_ind) 
 		func(obj_usa) 
+
 
 	* Function
 		A function is a block of code to carry out a specific task, will contain its own scope and is called by name. All functions may contain zero(no) arguments or more than one arguments. On exit, a function can or can not return one or more values.
