@@ -1,10 +1,11 @@
 OOPS- object-oriented programming system
 based on 'object'
 The basic concept of OOP is this: Class >> Object >> Instance.
-* The class = the blue print. 
-* The Object is an actual thing that is built based on the 'blue print' (like the house). 
+* The class = the blue print.
+* The Object is an actual thing that is built based on the 'blue print' (like the house).
 * An instance is a virtual copy (but not a real copy) of the object.
-A blueprint for a house design is like a class description. All the houses built from that blueprint are objects of that class. A given house is an instance.
+A blueprint for a house design is like a class description. All the houses built from that blueprint are objects of 
+that class. A given house is an instance.
 object:
 	* This object contain bundle of data and methods
 	Objects have two characteristics: They have states and behaviors.
@@ -14,24 +15,43 @@ object:
 		3) Behavior: Open door, close door (methods)
 
 1) Characteristics of Objects:
-	If you find it hard to understand Abstraction and Encapsulation, do not worry as I have covered these topics in detail with examples in the next section of this guide.
+	If you find it hard to understand Abstraction and Encapsulation, do not worry as I have covered these topics in 
+	detail with examples in the next section of this guide.
 
 	* Abstraction
 	* Encapsulation
-	
-	Abstraction: Abstraction is a process where you show only “relevant” data and “hide” unnecessary details of an object from the user.
 
-	Encapsulation: Encapsulation simply means binding object state(fields) and behaviour(methods) together. If you are creating class, you are doing encapsulation.
-	
+	Abstraction: Abstraction is a process where you show only “relevant” data and “hide” unnecessary details of an 
+	object from the user.
+
+	Encapsulation: Encapsulation simply means binding object state(fields) and behaviour(methods) together. If you are 
+	creating class, you are doing encapsulation.
+
 	Python Abstraction: It is used to hide the internal details and only show the functionalities.
 	Example:
-	        Suppose you are going to an ATM to withdraw money. You simply insert your card and click some buttons and get the money. You don’t know what is happening internally on press of these buttons. Basically you are hiding unnecessary information from user. So, abstraction is a method to hide internal functionalities from user.
-	
+	        Suppose you are going to an ATM to withdraw money. You simply insert your card and click some buttons and 
+	        get the money. You don’t know what is happening internally on press of these buttons. Basically you are 
+	        hiding unnecessary information from user. So, abstraction is a method to hide internal 
+	        functionalities from user.
+
 	Detail explain:
-	A class is called an Abstract class if it contains one or more abstract methods. An abstract method is a method that is declared, but contains no implementation. Abstract classes may not be instantiated, and its abstract methods must be implemented by its subclasses.
-	
-	# Link: https://www.tutorialspoint.com/abstract-base-classes-in-python-abc
-	# Example code:
+	A class is called an Abstract class if it contains one or more abstract methods. An abstract method is a method 
+	that is declared, but contains no implementation. Abstract classes may not be instantiated, and its abstract 
+	methods must be implemented by its subclasses.
+
+	Why use Abstract Base Classes :
+		Abstract classes allow you to provide default functionality for the subclasses. Compared to interfaces 
+		abstract classes can have an implementation. By defining an abstract base class, you can define a common 
+		Application Program Interface(API) for a set of subclasses. This capability is especially useful in situations 
+		where a third-party is going to provide implementations, such as with plugins in an application, but can also 
+		help you when working on a large team or with a large code-base where keeping all classes in your head at the 
+		same time is difficult or not possible.
+
+	# Example is available in below link:
+		# https://github.com/kumarmuthu/python_logic/blob/master/Abstraction/AbstractionExample.py
+
+	# simple example:
+		# Link: https://www.tutorialspoint.com/abstract-base-classes-in-python-abc
 	import abc
 	class Shape(metaclass=abc.ABCMeta):
 	   @abc.abstractmethod
@@ -45,23 +65,25 @@ object:
 		  return self.l*self.b
 	r = Rectangle(10,20)
 	print ('area: ',r.area())
-	
+
 	Python Encapsulation: Hiding details of a class from other objects.
 	Example:
-			Suppose there is a tree. Now a tree can have its components like root, stem, branches, leaves, flowers and fruits. It has some functionalities like Photosynthesis. But in a single unit we call it a tree. In same way encapsulation is a characteristic to bind data members and functions in single unit.
-			
-	# Link: https://medium.com/@MuthuKumar/encapsulation-abstraction-35999b0a3911
+			Suppose there is a tree. Now a tree can have its components like root, stem, branches, leaves, flowers 
+			and fruits. It has some functionalities like Photosynthesis. But in a single unit we call it a tree. 
+			In same way encapsulation is a characteristic to bind data members and functions in single unit.
+
+	# Link: https://medium.com/@manjuladube/encapsulation-abstraction-35999b0a3911
 	# Example code:
 	# Ex-1
 	class Person:
-	  def __init__(self): 
+	  def __init__(self):
 		self.name = 'Muthu'
 		self.__lastname = 'Kumar'
-		
+
 	  def PrintName(self):
 		return self.name +' ' + self.__lastname
-		
-	# Outside class    
+
+	#Outside class
 	P = Person()
 	print(P.name)
 	print(P.PrintName())
@@ -73,11 +95,11 @@ object:
 	class SeeMee:
 	  def youcanseeme(self):
 		return 'you can see me'
-		
+
 	  def __youcannotseeme(self):
 		return 'you cannot see me'
-		
-	#Outside class    
+
+	#Outside class
 	Check = SeeMee()
 	print(Check.youcanseeme())
 	# you can see me
@@ -88,24 +110,25 @@ object:
 	class SeeMee:
 	  def youcanseeme(self):
 		return 'you can see me'
-		
+
 	  def __youcannotseeme(self):
 		return 'you cannot see me'
-		
-	#Outside class    
+
+	#Outside class
 	Check = SeeMee()
 	print(Check.youcanseeme())
-	print(Check._SeeMee__youcannotseeme()) 
+	print(Check._SeeMee__youcannotseeme())
 	#Changing the name causes it to access the function
-	
-	
+
+
 2) Characteristics of State:
 	Class attributes(as variable)
 		* class variable
 		Class attributes belong to the class itself they will be shared by all the instances.
 	Instance attributes
 		* method variable
-		Every object has its own copy of the instance attribute (In case of class attributes all object refer to single copy)
+		Every object has its own copy of the instance attribute 
+		(In case of class attributes all object refer to single copy)
 
 	Standard Data Types:
 		Numbers (Number data types store numeric values)
@@ -115,56 +138,66 @@ object:
 		Dictionary
 
 	Getter and Setter in Python:
-		The main purpose of using getters and setters in object-oriented programs is to ensure data encapsulation. Private variables in python are not actually hidden fields like in other object oriented languages.
-		
-		In Python property()is a built-in function that creates and returns a property object. A property object has three methods, getter(), setter(), and delete(). property() function in Python has four arguments property(fget, fset, fdel, doc), fget is a function for retrieving an attribute value. fset is a fuction for setting an attribute value. fdel is a function for deleting an attribute value. doc creates a docstring for attribute. A property object has three methods, getter(), setter(), and delete()
+		The main purpose of using getters and setters in object-oriented programs is to ensure data encapsulation. 
+		Private variables in python are not actually hidden fields like in other object oriented languages.
+
+		In Python property()is a built-in function that creates and returns a property object. 
+		A property object has three methods, getter(), setter(), and delete(). property() function in Python has 
+		four arguments property(fget, fset, fdel, doc), fget is a function for retrieving an attribute value. 
+		fset is a fuction for setting an attribute value. fdel is a function for deleting an attribute value. 
+		doc creates a docstring for attribute. A property object has three methods, getter(), setter(), and delete()
 		# Example code:
 		# Ex-1
-		class MyClass: 
-			def __init__(self, age = 0): 
-				 self._age = age 
-			  
-			# getter method 
-			def get__age(self): 
-				return self._age 
-			  
-			# setter method 
-			def set__age(self, x): 
-				self._age = x 
-		  
-		cls_obj = MyClass() 
-		  
-		# setting the age using setter 
+		class MyClass:
+			def __init__(self, age = 0):
+				 self._age = age
+
+			# getter method
+			def get__age(self):
+				return self._age
+
+			# setter method
+			def set__age(self, x):
+				self._age = x
+
+		cls_obj = MyClass()
+
+		# setting the age using setter
 		cls_obj.set__age(2)
-		  
-		# retrieving age using getter 
-		print(cls_obj.get__age()) 
-		
+
+		# retrieving age using getter
+		print(cls_obj.get__age())
+
 		# Ex-2
-		class MyClasss: 
-			 def __init__(self):
-				  self._age = 0
-			   
-			 # function to get value of _age 
-			 def get_age(self): 
-				 print("getter method called") 
-				 return self._age 
-			   
-			 # function to set value of _age 
-			 def set_age(self, a): 
-				 print("setter method called") 
-				 self._age = a 
-		  
-			 # function to delete _age attribute 
-			 def del_age(self): 
-				 del self._age 
-			 
-			 age = property(get_age, set_age, del_age)  
-		  
+		class MyClasss:
+			def __init__(self):
+				self._age = 0
+
+			# function to get value of _age
+			def get_age(self):
+				print("getter method called")
+				return self._age
+
+			# function to set value of _age
+			def set_age(self, a):
+				print("setter method called")
+				self._age = a
+
+			# function to delete _age attribute
+			def del_age(self):
+				print("before delete self dict: {}".format(self.__dict__))
+				print("before delete: {}".format(self._age))
+				del self._age
+				print("after delete: {}".format(self.__dict__))
+
+			age = property(get_age, set_age, del_age)
+
+
 		mark = MyClasss()
 		mark.age = 10
 		print(mark.age)
-		
+		del mark.age
+
 		# Ex-3
 		class MyClasss:
 			def __init__(self):
@@ -185,140 +218,158 @@ object:
 				print("setter method called")
 				self._age = a
 
+			@age.deleter
+			def age(self):
+				print("deleter method called")
+				del self._age
+
+
 		mark = MyClasss()
 		mark.age = 19
 		print(mark.age)
+		del mark.age
 
 3) Characteristics of Behavior:
 	* Overriding vs. Overloading in Java:
 		Overriding:
-		Overriding means having two methods with the same method name and parameters (i.e., method signature). One of the methods is in the parent class and the other is in the child class. Overriding allows a child class to provide a specific implementation of a method that is already provided its parent class.
-		
+		Overriding means having two methods with the same method name and parameters (i.e., method signature). 
+		One of the methods is in the parent class and the other is in the child class. Overriding allows a child class 
+		to provide a specific implementation of a method that is already provided its parent class.
+
 		Overloading: (Not there in Python)
 		Overloading occurs when two or more methods in one class have the same method name but different parameters.
-		
+
 		Polymorphism applies to overriding, not to overloading.
 		Overriding is a run-time concept while overloading is a compile-time concept.
-		
+
 	* Polymorphism in Python
-		The word polymorphism means having many forms. In programming, polymorphism means same function name (but different signatures) being uses for different types.
-		
+		The word polymorphism means having many forms. In programming, polymorphism means same function name 
+		(but different signatures) being uses for different types.
+
 		1) Examples of used defined polymorphic functions :
-			# A simple Python function to demonstrate  
-			# Polymorphism 
-			  
-			def add(x, y, z = 0):  
-				return x + y+z 
-			  
-			# Driver code  
-			print(add(2, 3)) 
+			# A simple Python function to demonstrate
+			# Polymorphism
+
+			def add(x, y, z = 0):
+				return x + y+z
+
+			# Driver code
+			print(add(2, 3))
 			print(add(2, 3, 4))
-			
+
 		2) Polymorphism with class methods
-		
+
 			class India():
-				def capital(self): 
-					print("New Delhi is the capital of India.") 
-			  
-				def language(self): 
-					print("Hindi the primary language of India.") 
-			  
-				def type(self): 
-					print("India is a developing country.") 
-			  
-			class USA(): 
-				def capital(self): 
-					print("Washington, D.C. is the capital of USA.") 
-			  
-				def language(self): 
-					print("English is the primary language of USA.") 
-			  
-				def type(self): 
-					print("USA is a developed country.") 
-			  
-			obj_ind = India() 
-			obj_usa = USA() 
-			for country in (obj_ind, obj_usa): 
-				country.capital() 
-				country.language() 
+				def capital(self):
+					print("New Delhi is the capital of India.")
+
+				def language(self):
+					print("Hindi the primary language of India.")
+
+				def type(self):
+					print("India is a developing country.")
+
+			class USA():
+				def capital(self):
+					print("Washington, D.C. is the capital of USA.")
+
+				def language(self):
+					print("English is the primary language of USA.")
+
+				def type(self):
+					print("USA is a developed country.")
+
+			obj_ind = India()
+			obj_usa = USA()
+			for country in (obj_ind, obj_usa):
+				country.capital()
+				country.language()
 				country.type()
-				
+
 		3) Polymorphism with Inheritance
-		In Python, Polymorphism lets us define methods in the child class that have the same name as the methods in the parent class. In inheritance, the child class inherits the methods from the parent class. However, it is possible to modify a method in a child class that it has inherited from the parent class. This is particularly useful in cases where the method inherited from the parent class doesn’t quite fit the child class. In such cases, we re-implement the method in the child class. This process of re-implementing a method in the child class is known as "Method Overriding"
-		
+		In Python, Polymorphism lets us define methods in the child class that have the same name as the 
+		methods in the parent class. In inheritance, the child class inherits the methods from the parent class. 
+		However, it is possible to modify a method in a child class that it has inherited from the parent class. 
+		This is particularly useful in cases where the method inherited from the parent class doesn’t quite fit 
+		the child class. In such cases, we re-implement the method in the child class. This process of 
+		re-implementing a method in the child class is known as "Method Overriding"
+
 			class Bird:
-			  def intro(self): 
-				print("There are many types of birds.") 
-				  
-			  def flight(self): 
-				print("Most of the birds can fly but some cannot.") 
-				
-			class sparrow(Bird): 
-			  def flight(self): 
-				print("Sparrows can fly.") 
-				  
-			class ostrich(Bird): 
-			  def flight(self): 
-				print("Ostriches cannot fly.") 
-				  
-			obj_bird = Bird() 
-			obj_spr = sparrow() 
-			obj_ost = ostrich() 
-			  
-			obj_bird.intro() 
-			obj_bird.flight() 
-			  
-			obj_spr.intro() 
-			obj_spr.flight() 
-			  
-			obj_ost.intro() 
+			  def intro(self):
+				print("There are many types of birds.")
+
+			  def flight(self):
+				print("Most of the birds can fly but some cannot.")
+
+			class sparrow(Bird):
+			  def flight(self):
+				print("Sparrows can fly.")
+
+			class ostrich(Bird):
+			  def flight(self):
+				print("Ostriches cannot fly.")
+
+			obj_bird = Bird()
+			obj_spr = sparrow()
+			obj_ost = ostrich()
+
+			obj_bird.intro()
+			obj_bird.flight()
+
+			obj_spr.intro()
+			obj_spr.flight()
+
+			obj_ost.intro()
 			obj_ost.flight()
-		
+
 		4) Polymorphism with a Function and objects
-		class India(): 
-			def capital(self): 
-				print("New Delhi is the capital of India.") 
-		   
-			def language(self): 
-				print("Hindi the primary language of India.") 
-		   
-			def type(self): 
-				print("India is a developing country.") 
-		   
-		class USA(): 
-			def capital(self): 
-				print("Washington, D.C. is the capital of USA.") 
-		   
-			def language(self): 
-				print("English is the primary language of USA.") 
-		   
-			def type(self): 
-				print("USA is a developed country.") 
-		  
-		def func(obj): 
-			obj.capital() 
-			obj.language() 
-			obj.type() 
-		   
-		obj_ind = India() 
-		obj_usa = USA() 
-		   
-		func(obj_ind) 
-		func(obj_usa) 
+		class India():
+			def capital(self):
+				print("New Delhi is the capital of India.")
+
+			def language(self):
+				print("Hindi the primary language of India.")
+
+			def type(self):
+				print("India is a developing country.")
+
+		class USA():
+			def capital(self):
+				print("Washington, D.C. is the capital of USA.")
+
+			def language(self):
+				print("English is the primary language of USA.")
+
+			def type(self):
+				print("USA is a developed country.")
+
+		def func(obj):
+			obj.capital()
+			obj.language()
+			obj.type()
+
+		obj_ind = India()
+		obj_usa = USA()
+
+		func(obj_ind)
+		func(obj_usa)
 
 
 	* Function
-		A function is a block of code to carry out a specific task, will contain its own scope and is called by name. All functions may contain zero(no) arguments or more than one arguments. On exit, a function can or can not return one or more values.
+		A function is a block of code to carry out a specific task, will contain its own scope and is called by name. 
+		All functions may contain zero(no) arguments or more than one arguments. On exit, a function can or can not 
+		return one or more values.
 
 		Basic function syntax
 		def functionName( arg1, arg2,….):
 		   # ……
 		   # Function_body
 		   # ……
-   
-   
+
+
 	* Method
-		A method in python is somewhat similar to a function, except it is associated with object/classes. Methods in python are very similar to functions except for two major differences.
+		A method in python is somewhat similar to a function, except it is associated with object/classes. 
+		Methods in python are very similar to functions except for two major differences.
 
 		The method is implicitly used for an object for which it is called.
 
@@ -333,8 +384,8 @@ object:
 
 str() vs repr() in Python
 	str() is used for creating output for end user.
-	while repr() is mainly used for debugging and development. 
+	while repr() is mainly used for debugging and development.
 	repr’s goal is to be unambiguous and str’s is to be readable.
-	
+
 hasattr() method
 	Its main task is to check if an object has the given named attribute and return true if present, else false.
