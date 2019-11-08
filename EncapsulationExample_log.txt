@@ -1,0 +1,8 @@
+# OUTPUT:
+	Name: Muthu
+	Call 'PrintName' method: Muthu_Kumar
+	Fixed private variable access: Kumar
+	Call 'youcanseeme' method: From public method: you can see me
+	Fixed private method access: <bound method SeeMee.__youcannotseeme 
+	of <__main__.SeeMee object at 0x000002792B1C6550>>
+	
