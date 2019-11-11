@@ -1,0 +1,16 @@
+OUTPUT:
+	Example-1 - retrieving age using getter: 2
+	Example-2 - setter method called
+	Example-2 - getter method called
+	Example-2 - Mark: 10
+	Example-2 - before delete self dict: {'_age': 10}
+	Example-2 - before delete: 10
+	Example-2 - after delete: {}
+	Example-3 - setter method called
+	Example-3 - getter method called
+	Example-3 - Mark: 19
+	Example-3 - deleter method called
+	Example-4 - setter method called
+	Example-4-2 - getter method called: 19
+	Example-4 - Mark: 19
+	Example-4 - deleter method called
