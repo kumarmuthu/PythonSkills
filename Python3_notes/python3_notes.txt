@@ -20,6 +20,11 @@ object:
 
 	* Abstraction
 	* Encapsulation
+	
+	Difference between Abstraction and Encapsulation:
+		Abstraction is a mechanism which represent the essential features without including implementation details.
+		Abstraction: — Implementation hiding.
+		Encapsulation: — Information hiding.
 
 	Abstraction: Abstraction is a process where you show only “relevant” data and “hide” unnecessary details of an 
 	object from the user.
@@ -27,108 +32,121 @@ object:
 	Encapsulation: Encapsulation simply means binding object state(fields) and behaviour(methods) together. If you are 
 	creating class, you are doing encapsulation.
 
-	Python Abstraction: It is used to hide the internal details and only show the functionalities.
-	Example:
+	I) Python Abstraction:
+		It is used to hide the internal details and only show the functionalities.
+		Example:
 	        Suppose you are going to an ATM to withdraw money. You simply insert your card and click some buttons and 
 	        get the money. You don’t know what is happening internally on press of these buttons. Basically you are 
 	        hiding unnecessary information from user. So, abstraction is a method to hide internal 
 	        functionalities from user.
 
-	Detail explain:
-	A class is called an Abstract class if it contains one or more abstract methods. An abstract method is a method 
-	that is declared, but contains no implementation. Abstract classes may not be instantiated, and its abstract 
-	methods must be implemented by its subclasses.
+		Detail explain:
+		A class is called an Abstract class if it contains one or more abstract methods. An abstract method is a method 
+		that is declared, but contains no implementation. Abstract classes may not be instantiated, and its abstract 
+		methods must be implemented by its subclasses.
 
-	Why use Abstract Base Classes :
-		Abstract classes allow you to provide default functionality for the subclasses. Compared to interfaces 
-		abstract classes can have an implementation. By defining an abstract base class, you can define a common 
-		Application Program Interface(API) for a set of subclasses. This capability is especially useful in situations 
-		where a third-party is going to provide implementations, such as with plugins in an application, but can also 
-		help you when working on a large team or with a large code-base where keeping all classes in your head at the 
-		same time is difficult or not possible.
+		Why use Abstract Base Classes :
+			Abstract classes allow you to provide default functionality for the subclasses. Compared to interfaces 
+			abstract classes can have an implementation. By defining an abstract base class, you can define a common 
+			Application Program Interface(API) for a set of subclasses. This capability is especially useful in situations 
+			where a third-party is going to provide implementations, such as with plugins in an application, but can also 
+			help you when working on a large team or with a large code-base where keeping all classes in your head at the 
+			same time is difficult or not possible.
 
-	# Example is available in below link:
-		# https://github.com/kumarmuthu/python_logic/blob/master/Abstraction/AbstractionExample.py
+		# Example is available in below link:
+			# https://github.com/kumarmuthu/python_logic/blob/master/Abstraction/AbstractionExample.py
 
-	# simple example:
-		# Link: https://www.tutorialspoint.com/abstract-base-classes-in-python-abc
-	import abc
-	class Shape(metaclass=abc.ABCMeta):
-	   @abc.abstractmethod
-	   def area(self):
-		  pass
-	class Rectangle(Shape):
-	   def __init__(self, x,y):
-		  self.l = x
-		  self.b=y
-	   def area(self):
-		  return self.l*self.b
-	r = Rectangle(10,20)
-	print ('area: ',r.area())
+		# simple example:
+			# Link: https://www.tutorialspoint.com/abstract-base-classes-in-python-abc
+		import abc
+		class Shape(metaclass=abc.ABCMeta):
+		   @abc.abstractmethod
+		   def area(self):
+			  pass
+		class Rectangle(Shape):
+		   def __init__(self, x,y):
+			  self.l = x
+			  self.b=y
+		   def area(self):
+			  return self.l*self.b
+		r = Rectangle(10,20)
+		print ('area: ',r.area())
 
-	Python Encapsulation: Hiding details of a class from other objects.
-	Example:
-			Suppose there is a tree. Now a tree can have its components like root, stem, branches, leaves, flowers 
-			and fruits. It has some functionalities like Photosynthesis. But in a single unit we call it a tree. 
-			In same way encapsulation is a characteristic to bind data members and functions in single unit.
+	II) Python Encapsulation:
+		Hiding details of a class from other objects.
+		Example:
+				Suppose there is a tree. Now a tree can have its components like root, stem, branches, leaves, flowers 
+				and fruits. It has some functionalities like Photosynthesis. But in a single unit we call it a tree. 
+				In same way encapsulation is a characteristic to bind data members and functions in single unit.
+				
+		Private members:
+			But there is a method in Python to define Private: Add “__” (double underscore ) in front of the variable 
+			and function name can hide them when accessing them from out of class.
+			Python doesn’t have real private methods, so one underline in the beginning of a method or attribute 
+			means you shouldn’t access this method.But this is just convention.I can still access the the variables 
+			with single underscore.
+			Also when using double underscore (__).we can still access the private variables.
+		# Example is available in below link:
+			# https://github.com/kumarmuthu/python_logic/blob/master/Encapsulation/EncapsulationExample.py
+		
+		# simple example:
+			#Link: https://medium.com/@manjuladube/encapsulation-abstraction-35999b0a3911
+		# Example code:
+		# Ex-1
+		class Person:
+		  def __init__(self):
+			self.name = 'Muthu'
+			self.__lastname = 'Kumar'
 
-	# Link: https://medium.com/@manjuladube/encapsulation-abstraction-35999b0a3911
-	# Example code:
-	# Ex-1
-	class Person:
-	  def __init__(self):
-		self.name = 'Muthu'
-		self.__lastname = 'Kumar'
+		  def PrintName(self):
+			return self.name +' ' + self.__lastname
 
-	  def PrintName(self):
-		return self.name +' ' + self.__lastname
+		#Outside class
+		P = Person()
+		print(P.name)
+		print(P.PrintName())
+		# print(P.__lastname)   # need this line
+		print("Fixed private access: ",P._Person__lastname) # we able to print "Kumar" in __lastname
+		#AttributeError: 'Person' object has no attribute '__lastname'
 
-	#Outside class
-	P = Person()
-	print(P.name)
-	print(P.PrintName())
-	# print(P.__lastname)   # need this line
-	print("Fixed private access: ",P._Person__lastname) # we able to print "Kumar" in __lastname
-	#AttributeError: 'Person' object has no attribute '__lastname'
+		# Ex-2
+		class SeeMee:
+		  def youcanseeme(self):
+			return 'you can see me'
 
-	# Ex-2
-	class SeeMee:
-	  def youcanseeme(self):
-		return 'you can see me'
+		  def __youcannotseeme(self):
+			return 'you cannot see me'
 
-	  def __youcannotseeme(self):
-		return 'you cannot see me'
+		#Outside class
+		Check = SeeMee()
+		print(Check.youcanseeme())
+		# you can see me
+		# print(Check.__youcannotseeme())  # need this line
+		#AttributeError: 'SeeMee' object has no attribute '__youcannotseeme'
 
-	#Outside class
-	Check = SeeMee()
-	print(Check.youcanseeme())
-	# you can see me
-	# print(Check.__youcannotseeme())  # need this line
-	#AttributeError: 'SeeMee' object has no attribute '__youcannotseeme'
+		# Ex-3
+		class SeeMee:
+		  def youcanseeme(self):
+			return 'you can see me'
 
-	# Ex-3
-	class SeeMee:
-	  def youcanseeme(self):
-		return 'you can see me'
+		  def __youcannotseeme(self):
+			return 'you cannot see me'
 
-	  def __youcannotseeme(self):
-		return 'you cannot see me'
-
-	#Outside class
-	Check = SeeMee()
-	print(Check.youcanseeme())
-	print(Check._SeeMee__youcannotseeme())
-	#Changing the name causes it to access the function
+		#Outside class
+		Check = SeeMee()
+		print(Check.youcanseeme())
+		print(Check._SeeMee__youcannotseeme())
+		#Changing the name causes it to access the function
 
 
 2) Characteristics of State:
-	Class attributes(as variable)
+	I) Class attributes(as variable)
 		* class variable
-		Class attributes belong to the class itself they will be shared by all the instances.
-	Instance attributes
+			Class attributes belong to the class itself they will be shared by all the instances.
+	II) Instance attributes
 		* method variable
-		Every object has its own copy of the instance attribute 
-		(In case of class attributes all object refer to single copy)
+			Every object has its own copy of the instance attribute 
+			(In case of class attributes all object refer to single copy)
 
 	Standard Data Types:
 		Numbers (Number data types store numeric values)
@@ -137,7 +155,7 @@ object:
 		Tuple (immutable<can't change> sequence data type () )
 		Dictionary
 
-	Getter and Setter in Python:
+	Getter and Setter in Python(@property):
 		The main purpose of using getters and setters in object-oriented programs is to ensure data encapsulation. 
 		Private variables in python are not actually hidden fields like in other object oriented languages.
 
@@ -146,6 +164,10 @@ object:
 		four arguments property(fget, fset, fdel, doc), fget is a function for retrieving an attribute value. 
 		fset is a fuction for setting an attribute value. fdel is a function for deleting an attribute value. 
 		doc creates a docstring for attribute. A property object has three methods, getter(), setter(), and delete()
+		
+		# Example is available in below link:	
+		# https://github.com/kumarmuthu/python_logic/blob/Python_PropertyDecorator/PropertyDecorator/PropertyDecoratorWithGetterSetterDeleter.py
+		
 		# Example code:
 		# Ex-1
 		class MyClass:
@@ -160,8 +182,8 @@ object:
 			def set__age(self, x):
 				self._age = x
 
-		cls_obj = MyClass()
 
+		cls_obj = MyClass()
 		# setting the age using setter
 		cls_obj.set__age(2)
 
@@ -217,7 +239,45 @@ object:
 					raise ValueError("Sorry you age is below eligibility criteria")
 				print("setter method called")
 				self._age = a
+			
+			# a deleter function
+			@age.deleter
+			def age(self):
+				print("deleter method called")
+				del self._age
 
+
+		mark = MyClasss()
+		mark.age = 19
+		print(mark.age)
+		del mark.age
+		
+		# Ex-4
+		class MyClasss:
+			def __init__(self):
+				self._age = 0
+
+			# using property decorator
+			# a getter function
+			@property
+			def age(self):
+				print("1 getter method called",self._age)
+				return self._age
+
+			# a getter function
+			@age.getter
+			def age(self):
+			    print("2 getter method called",self._age)
+
+			# a setter function
+			@age.setter
+			def age(self, a):
+				if (a < 18):
+					raise ValueError("Sorry you age is below eligibility criteria")
+				print("setter method called")
+				self._age = a
+				
+			# a deleter function
 			@age.deleter
 			def age(self):
 				print("deleter method called")
