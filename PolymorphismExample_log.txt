@@ -1,0 +1,21 @@
+OUTPUT:
+	Example-1 - Call 'add' function with default zero: 5
+	Example-1 - Call 'add' function with 3rd value: 9
+	Example-2 - New Delhi is the capital of India.
+	Example-2 - Hindi the primary language of India.
+	Example-2 - India is a developing country.
+	Example-2 - Washington, D.C. is the capital of USA.
+	Example-2 - English is the primary language of USA.
+	Example-2 - USA is a developed country.
+	Example-3 - There are many types of birds.
+	Example-3 - Most of the birds can fly but some cannot.
+	Example-3 - There are many types of birds.
+	Example-3 - Sparrows can fly.
+	Example-3 - There are many types of birds.
+	Example-3 - Ostriches cannot fly.
+	Example-4 - New Delhi is the capital of India.
+	Example-4 - Hindi the primary language of India.
+	Example-4 - India is a developing country.
+	Example-4 - Washington, D.C. is the capital of USA.
+	Example-4 - English is the primary language of USA.
+	Example-4 - USA is a developed country.
