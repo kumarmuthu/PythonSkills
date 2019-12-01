@@ -1,0 +1,15 @@
+# OUTPUT:
+     Date difference for 'post' increment for future data
+     Initial Date and Time: 2019-11-27 20:00:56.250568
+     current_date is: 2019-11-27
+     days_count enabled!!!
+     Current date now: 2019-11-27
+     Before Data: 2020-02-05
+
+# OUTPUT: None
+     Both Days and Months is None, so default 'months count' as '1'
+     Initial Date and Time: 2019-11-27 20:05:58.030753
+     current_date is: 2019-11-27
+     months_count enabled!!!
+     Current date now: 2019-11-27
+     Before Data: 2019-10-27
