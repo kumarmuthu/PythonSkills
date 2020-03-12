@@ -1,0 +1,36 @@
+C:\Users\muthukumar\AppData\Local\Programs\Python\Python36\python.exe F:/Python/QuizAppMuthu.py --start-game y
+{1: {'qus': 'How many teams are participating in the ICC World Cup 2019?', 'ans': ['8', '9', '10', '12']}, 2: {'qus': 'Which cricket team has won most ICC Cricket World Cup titles?', 'ans': ['West Indies', 'India', 'England', 'Australia']}, 3: {'qus': 'Which of the following country did not won the ICC Cricket World Cup (50 over format) title so far?', 'ans': ['South Africa', 'New zealand', 'England', 'All of the above']}, 4: {'qus': 'Which of the following Indian player have got first “Man of the Tournament” Award in the ICC Cricket World Cup?', 'ans': ['Sachin Tendulkar', 'Yuvraj Singh', 'Mohinder Amarnath', 'M.S. Dhoni']}, 5: {'qus': 'When was first ICC cricket World Cup started?', 'ans': ['1972', '1975', '1985', '1979']}, 6: {'qus': 'Who is the youngest player in the ICC Cricket World Cup 2019?', 'ans': ['Jonny Blaze Bairstow', 'Yuzvendra chahal', 'Mujeeb ur Rahman', 'Kagiso Rabada']}, 7: {'qus': 'my name is', 'ans': ['muthu', 'kumar', 'msd', 'raina']}}
+{1: '10', 2: 'Australia', 3: 'All of the above', 4: 'Sachin Tendulkar', 5: '1975', 6: 'Mujeeb ur Rahman', 7: 'muthu'}
+please select any on of the option, admin or user
+user
+Are you play with default quiz question(Five)? (Yes/y or No/n)
+n
+Your can play maximum 7 question(s)
+Please selected number of question to start your game:
+3
+The game is start now!
+Random order questions as [5, 3, 7, 6, 4, 1, 2]
+Question is: When was first ICC cricket World Cup started?
+Options are: ['1972', '1975', '1985', '1979']
+Please provided your answer:
+1975
+Given Answer is: 1975
+Your answer is correct
+Question is: Which of the following country did not won the ICC Cricket World Cup (50 over format) title so far?
+Options are: ['South Africa', 'New zealand', 'England', 'All of the above']
+Please provided your answer:
+Africa
+Given Answer is: Africa
+Your answer is wrong(not found)
+This is your last question!
+Question is: my name is
+Options are: ['muthu', 'kumar', 'msd', 'raina']
+Please provided your answer:
+muthu
+Given Answer is: muthu
+Your answer is correct
+2 answer(s) are correct
+1 answer(s) are incorrect
+Total questions are: 3
+
+Process finished with exit code 0
