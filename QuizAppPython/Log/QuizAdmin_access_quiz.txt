@@ -1,0 +1,65 @@
+C:\Users\muthukumar\AppData\Local\Programs\Python\Python36\python.exe F:/Python/QuizAppMuthu.py --start-game y
+{1: {'qus': 'How many teams are participating in the ICC World Cup 2019?', 'ans': ['8', '9', '10', '12']}, 2: {'qus': 'Which cricket team has won most ICC Cricket World Cup titles?', 'ans': ['West Indies', 'India', 'England', 'Australia']}, 3: {'qus': 'Which of the following country did not won the ICC Cricket World Cup (50 over format) title so far?', 'ans': ['South Africa', 'New zealand', 'England', 'All of the above']}, 4: {'qus': 'Which of the following Indian player have got first “Man of the Tournament” Award in the ICC Cricket World Cup?', 'ans': ['Sachin Tendulkar', 'Yuvraj Singh', 'Mohinder Amarnath', 'M.S. Dhoni']}, 5: {'qus': 'When was first ICC cricket World Cup started?', 'ans': ['1972', '1975', '1985', '1979']}, 6: {'qus': 'Who is the youngest player in the ICC Cricket World Cup 2019?', 'ans': ['Jonny Blaze Bairstow', 'Yuzvendra chahal', 'Mujeeb ur Rahman', 'Kagiso Rabada']}, 7: {'qus': 'my name is', 'ans': ['muthu', 'kumar', 'msd', 'raina']}}
+{1: '10', 2: 'Australia', 3: 'All of the above', 4: 'Sachin Tendulkar', 5: '1975', 6: 'Mujeeb ur Rahman', 7: 'muthu'}
+please select any on of the option, admin or user
+admin
+Dear admin what action you are looking: insert or update or delete or exit quiz
+Admin can access 3 times
+update
+Displaying all the questions and answers are below!!
+1. Question is: How many teams are participating in the ICC World Cup 2019?
+ Answer list is here: 
+	8
+	9
+	10
+	12
+2. Question is: Which cricket team has won most ICC Cricket World Cup titles?
+ Answer list is here: 
+	West Indies
+	India
+	England
+	Australia
+3. Question is: Which of the following country did not won the ICC Cricket World Cup (50 over format) title so far?
+ Answer list is here: 
+	South Africa
+	New zealand
+	England
+	All of the above
+4. Question is: Which of the following Indian player have got first “Man of the Tournament” Award in the ICC Cricket World Cup?
+ Answer list is here: 
+	Sachin Tendulkar
+	Yuvraj Singh
+	Mohinder Amarnath
+	M.S. Dhoni
+5. Question is: When was first ICC cricket World Cup started?
+ Answer list is here: 
+	1972
+	1975
+	1985
+	1979
+6. Question is: Who is the youngest player in the ICC Cricket World Cup 2019?
+ Answer list is here: 
+	Jonny Blaze Bairstow
+	Yuzvendra chahal
+	Mujeeb ur Rahman
+	Kagiso Rabada
+7. Question is: my name is
+ Answer list is here: 
+	muthu
+	kumar
+	msd
+	raina
+Please selected question number to update the quiz question and answer
+7
+Please selected option(yes or no or exit update) to update all the sheet values(quiz question ,quiz answer and quiz correct answer map). Else, correct answer sheet will be update
+n
+Will update the correct answer sheet
+Please update/change the correct answer of the current quiz question
+muthu
+Correct answer sheet is updated successfully: {1: '10', 2: 'Australia', 3: 'All of the above', 4: 'Sachin Tendulkar', 5: '1975', 6: 'Mujeeb ur Rahman', 7: 'muthu'}
+Please selected option(yes or no or exit update) to update all the sheet values(quiz question ,quiz answer and quiz correct answer map). Else, correct answer sheet will be update
+exit
+Exiting quiz Qus and Ans update
+Dear admin what action you are looking: insert or update or delete or exit quiz
+exit
+Exiting quiz app
