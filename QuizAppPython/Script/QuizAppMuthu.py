@@ -408,7 +408,7 @@ class QuizAppMuthu(object):
 
 
 if __name__ == '__main__':
-    arg = argparse.ArgumentParser("Game inline argument")
+    arg = argparse.ArgumentParser("Game inline argument is required")
     arg.add_argument('--start-game', type=str, required=True,
                      help="Please you should give your decision start this game")
     parser = arg.parse_args()
