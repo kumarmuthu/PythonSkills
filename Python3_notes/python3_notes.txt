@@ -1,3 +1,16 @@
+Module:
+Module is a file which contains various Python functions and global variables. It is simply just .py extension file which has python executable code.
+
+Package:
+Package is a collection of modules. It must contains an __init__.py file as a flag so that the python interpreter processes it as such. 
+The __init__.py could be an empty file without causing issues.
+
+Library:
+Library is a collection of packages.
+
+Framework:
+Framework is a collection of libraries. This is the architecture of the program.
+
 OOPS- object-oriented programming system
 based on 'object'
 The basic concept of OOP is this: Class >> Object >> Instance.
@@ -449,3 +462,99 @@ str() vs repr() in Python
 
 hasattr() method
 	Its main task is to check if an object has the given named attribute and return true if present, else false.
+PEP8:
+PEP stands for Python Enhancement Proposal. 
+It is a set of rules that specify how to format Python code for maximum readability.
+
+Decoraror in Python:
+A function that takes another functions as an argument.
+Dynamically changing the functionality of a function without using sub classes.
+Want to extend the funtionality of a function or dont want to modify them.
+
+Comprehensions in Python:
+a short and concise way to construct new sequences (such as lists, set, dictionary etc.)
+
+lambda in Python:
+Lambda is an anonymous function in Python, that can accept any number of arguments, 
+but can only have a single expression
+
+Python Scope:
+A variable is only available from inside the region it is created(where it is defined that variable). 
+This is called scope.
+Local Scope
+Global Scope
+
+Namespace:
+A namespace is a naming system used to make sure that names are unique to avoid naming conflicts.
+built-in namespace
+global namespace
+local namespace
+
+generators in python:
+Functions that return an iterable set of items are called generators.
+
+iterators in Python:
+In Python, iterators are used to iterate a group of elements, containers like list.
+Iterator is an object.
+It remembers its state i.e., where it is during iteration (see code below to see how)
+__iter__() method initializes an iterator.
+It has a __next__() method which returns the next item in iteration and points to the next element. 
+Upon reaching the end of iterable object __next__() must return StopIteration exception.
+It is also self iterable.
+Iterators are objects with which we can iterate over iterable objects like lists, strings, etc.
+
+memory managed in Python:
+The memory allocated by the manager is in form of a private heap space dedicated for Python.
+ All Python objects are stored in this heap and being private, it is inaccessible to the programmer.
+Python has an in-built garbage collection to recycle the unused memory for the private heap space.
+
+difference between Python Arrays and lists:
+arrays can hold only a single data type elements whereas lists can hold any data type elements.
+
+Python packages:
+Python packages are namespaces containing multiple modules.
+
+Multithreading achieved in Python:
+if you want to multi-thread to speed your code up, then it’s usually not a good idea to use it.
+Python has a construct called the Global Interpreter Lock (GIL). 
+The GIL makes sure that only one of your ‘threads’ can execute at any one time. 
+A thread acquires the GIL, does a little work, then passes the GIL onto the next thread.
+This happens very quickly so to the human eye it may seem like your threads are executing in parallel, 
+but they are really just taking turns using the same CPU core.
+
+Inheritance in Python:
+Inheritance allows One class to gain all the members(say attributes and methods) of another class. 
+Inheritance provides code reusability, makes it easier to create and maintain an application. 
+The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class.
+
+Single Inheritance – where a derived class acquires the members of a single super class.
+Multi-level inheritance – a derived class d1 in inherited from base class base1, and d2 are inherited from base2.
+Hierarchical inheritance – from one base class you can inherit any number of child classes
+Multiple inheritance – a derived class is inherited from more than one base class.
+
+monkey patching in Python:
+the term monkey patch only refers to dynamic modifications of a class or module at run-time.
+
+Polymorphism in Python:
+Polymorphism means the ability to take multiple forms. 
+So, for instance, if the parent class has a method named ABC then the child class also can have a method with the same name ABC having its own parameters and variables. 
+
+encapsulation in Python:
+Encapsulation means binding the code and the data together. A Python class in an example of encapsulation.
+
+data abstraction in Python:
+Data Abstraction is providing only the required details and hiding the implementation from the world. 
+It can be achieved in Python by using interfaces and abstract classes.
+
+difference between .py and .pyc files:
+.py files contain the source code of a program.
+Before executing a python program python interpreter checks for the compiled files. If the file is present, the virtual machine executes it. 
+If not found, it checks for .py file. If found, compiles it to .pyc file and then python virtual machine executes it.
+.pyc file contains the bytecode of your program.
+
+passed by value or by reference in python:
+Pass by value: Copy of the actual object is passed. 
+Changing the value of the copy of the object will not change the value of the original object.
+Pass by reference: Reference to the actual object is passed. 
+Changing the value of the new object will change the value of the original object.
+In Python, arguments are passed by reference, i.e., reference to the actual object is passed.
