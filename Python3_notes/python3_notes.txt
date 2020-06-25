@@ -1,3 +1,16 @@
+Module:
+Module is a file which contains various Python functions and global variables. It is simply just .py extension file which has python executable code.
+
+Package:
+Package is a collection of modules. It must contains an __init__.py file as a flag so that the python interpreter processes it as such. 
+The __init__.py could be an empty file without causing issues.
+
+Library:
+Library is a collection of packages.
+
+Framework:
+Framework is a collection of libraries. This is the architecture of the program.
+
 OOPS- object-oriented programming system
 based on 'object'
 The basic concept of OOP is this: Class >> Object >> Instance.
