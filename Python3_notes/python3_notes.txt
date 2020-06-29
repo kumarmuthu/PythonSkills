@@ -558,3 +558,43 @@ Changing the value of the copy of the object will not change the value of the or
 Pass by reference: Reference to the actual object is passed. 
 Changing the value of the new object will change the value of the original object.
 In Python, arguments are passed by reference, i.e., reference to the actual object is passed.
+
+Slice:
+l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#   0, 1, 2, 3, 4, 5, 6, 7, 8, 9            ==>>> positive order
+#   -1, -2, -3, -4, -, -6, -7, -8, -9, -10  ==>> negative order
+# slice start char: end/stop char: step char(jump)
+# start char(included): end/stop char (excluded)
+
+# Ex-1:-
+# print the number 1 to 5(exclude) ==>> index 0 to 4
+#   1(print), 2, 3, 4, 5, 6(end/exclude)                   ==>>> positive order
+# output:[1, 2, 3, 4, 5]
+
+print("print 1 to 5: ", l1[0:5])
+
+# Ex-2:-
+# skip 3 numbers and print the number 1 to 8
+#  1(start index), 2(skip), 3(skip), 4(print), 5(skip), 6(skip), 7(print), 8(exclude), 9   ==>>> positive order
+# output: [1, 4, 7]
+print("skip 3 numbers: ", l1[0:8:3])
+
+# Ex-3:-
+# print the numbers 10 to 1 in reverse order
+# output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+print("print the numbers with reverse order: ", l1[::-1])
+
+# Ex-4:-
+# print the number 10 to 4 in reverse order
+#  reversed [::-1] =>>> [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+#  -1, -2, -3, -4, -, -6, -7, -8 , -9, -10 ==>> negative order
+#  10(-1), 9(-2), 8(-3), 7(-4), 6(-5), 5(-6), 4(-7), 3(-8 exclude) =>> so print 10 to 4
+print("print the number 10 to 4 in reverse order: ",l1[-1:-8:-1])
+
+# Ex-5:-
+# skip 2 numbers and print the number 10 to 6 in reverse order
+#  reversed [::-1] =>>> [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+#  -1, -2, -3, -4, -, -6, -7, -8 , -9, -10 ==>> negative order
+#  10(-1 print), 9(-2 skip), 8(-3 print), 7(-4 skip), 6(-5 print), 5(-6 skip), 4(-7 exclude) =>> so print 10 to 6
+# output: [10, 8, 6]
+print("print the number 10 to 6 in reverse order: ",l1[-1:-7:-2])
