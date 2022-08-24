@@ -1,4 +1,4 @@
-# python3_logic
+# PythonSkills
 
 ## Covered topics:
 
