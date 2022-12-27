@@ -1,0 +1,51 @@
+Console OutPut:
+
+C:\Python38\python.exe C:\muthu\WindowsIpconfigCmdParseToDict.py --run-hardcoded-output true 
+Hardcoded_output(Args Value):  true
+Executing the test with hardcoded output
+Parsed_output: [
+    "Windows IP Configuration",
+    "Ethernet adapter Ethernet:",
+    "   Media State . . . . . . . . . . . : Media disconnected",
+    "   Connection-specific DNS Suffix  . :",
+    "Wireless LAN adapter Local Area Connection* 11:",
+    "   Media State . . . . . . . . . . . : Media disconnected",
+    "   Connection-specific DNS Suffix  . :",
+    "Wireless LAN adapter Local Area Connection* 12:",
+    "   Media State . . . . . . . . . . . : Media disconnected",
+    "   Connection-specific DNS Suffix  . :",
+    "Wireless LAN adapter Wi-Fi 2:",
+    "   Connection-specific DNS Suffix  . :",
+    "   IPv6 Address. . . . . . . . . . . : 2401:4900:1f20:70bc:4d0c:6832:6903:327f",
+    "   Temporary IPv6 Address. . . . . . : 2401:4900:1f20:70bc:4dda:2b74:18c5:314",
+    "   Link-local IPv6 Address . . . . . : fe80::8723:bbb0:1be:2c6c%8",
+    "   IPv4 Address. . . . . . . . . . . : 192.168.1.5",
+    "   Subnet Mask . . . . . . . . . . . : 255.255.255.0",
+    "   Default Gateway . . . . . . . . . : fe80::1%8",
+    "                                       192.168.1.1",
+]
+Final_dict: {
+    "Windows IP Configuration": {
+        "Ethernet adapter Ethernet": {
+            "Media State": "Media disconnected",
+            "Connection-specific DNS Suffix": None,
+        },
+        "Wireless LAN adapter Local Area Connection* 11": {
+            "Media State": "Media disconnected",
+            "Connection-specific DNS Suffix": None,
+        },
+        "Wireless LAN adapter Local Area Connection* 12": {
+            "Media State": "Media disconnected",
+            "Connection-specific DNS Suffix": None,
+        },
+        "Wireless LAN adapter Wi-Fi 2": {
+            "Connection-specific DNS Suffix": None,
+            "IPv6 Address": "2401:4900:1f20:70bc:4d0c:6832:6903:327f",
+            "Temporary IPv6 Address": "2401:4900:1f20:70bc:4dda:2b74:18c5:314",
+            "Link-local IPv6 Address": "fe80::8723:bbb0:1be:2c6c%8",
+            "IPv4 Address": "192.168.1.5",
+            "Subnet Mask": "255.255.255.0",
+            "Default Gateway": ["fe80::1%8", "192.168.1.1"],
+        },
+    }
+}
