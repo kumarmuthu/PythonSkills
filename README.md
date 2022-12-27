@@ -2,9 +2,9 @@
 * **
 ## Covered topics:
 * **
-* **Import(import two class and importlib util)**
-* **Argpase**
-* **Logger (filehandling)**
+* **Import(import two class and importlib utils)**
+* **Argparse**
+* **Logger (file handling)**
 * **Random function**
 * **Decorator**
 * **Pyotp**
