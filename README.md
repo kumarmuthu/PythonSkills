@@ -1,9 +1,10 @@
 # PythonSkills
-
+* **
 ## Covered topics:
-
-* **Import(import two class and importlib util)**
-* **Logger (filehandling)**
+* **
+* **Import(import two class and importlib utils)**
+* **Argparse**
+* **Logger (file handling)**
 * **Random function**
 * **Decorator**
 * **Pyotp**
@@ -18,7 +19,14 @@
   * ***Polymorphism with Inheritance***
   * ***Polymorphism with a Function and objects***
 * **Inheritance**
-* **ExcelSheetWrite**
-* **DateDifferenceCalculateBeforeOrAfter**
-* **Quiz application in Python with JSON**
+* **
+### Own Utils(utility/apps):
+* **Python Decorator Skip During Runtime**
+* **Generate Random Ipv4 and Ipv6**
+* **Clean Whitespace utility(From Dictionary)**
+* **ExcelSheet Write utility(From Dictionary to Row/Column)**
+* **Before Or After Date Difference Calculator**
+* **Quiz(Q & A) application with JSON**
+* **Windows 'ipconfig' cmd parse logic**
+* **
 
