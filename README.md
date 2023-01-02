@@ -5,8 +5,10 @@
 * **Import(import two class and importlib utils)**
 * **Argparse**
 * **Logger (file handling)**
+* **Regular expression**
 * **Random function**
-* **Decorator**
+* **Decorators**
+* **JSON[dump(s)/load(s)]**
 * **Pyotp**
 * **Recursive function**
 * **Error handling**
@@ -26,7 +28,7 @@
 * **Clean Whitespace utility(From Dictionary)**
 * **ExcelSheet Write utility(From Dictionary to Row/Column)**
 * **Before Or After Date Difference Calculator**
-* **Quiz(Q & A) application with JSON**
+* **Python Quiz(Q & A) application with JSON**
 * **Windows 'ipconfig' cmd parse logic**
+* **Windows 'systeminfo' cmd parse logic**
 * **
-
