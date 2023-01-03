@@ -4,7 +4,7 @@
 * **
 * **Import(import two class and importlib utils)**
 * **Argparse**
-* **Logger (file handling)**
+* **Logger (file handling/HTML logger)**
 * **Regular expression**
 * **Random function**
 * **Decorators**
