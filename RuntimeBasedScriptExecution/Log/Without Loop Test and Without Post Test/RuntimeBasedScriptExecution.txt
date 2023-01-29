@@ -1,0 +1,21 @@
+2023/01/29 16:34:17 MainThread Utility, logger_function,line: 54     INFO | Logger object is initiated...
+2023/01/29 16:34:17 MainThread RuntimeBasedScriptExecution, <module>,line: 360     INFO | **********************Utility - Start***********************
+2023/01/29 16:34:17 Thread-1 RuntimeBasedScriptExecution, child_job,line: 137     INFO | Child job is running...
+2023/01/29 16:34:17 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 210     INFO | Test will exit after: 30 sec...
+2023/01/29 16:34:17 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:34:17 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:34:18 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:34:19 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:34:21 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:34:21 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674990261
+2023/01/29 16:34:21 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674990257, Current time: 1674990261, Elapsed runtime: 1674990261
+2023/01/29 16:34:21 Thread-1 RuntimeBasedScriptExecution, child_job,line: 165     INFO | Summary for Non-Loop test  - Job spent time(s): 4
+2023/01/29 16:34:47 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 241     INFO | Main test - Reached the script's timeout value, So killing/Stopping the script execution!.
+2023/01/29 16:34:47 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 243     INFO | Main test - Elapsed runtime!: 1674990287
+2023/01/29 16:34:47 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 244     INFO | Main test - Time Summary Report:: Start time: 1674990257, Current time: 1674990286, Elapsed runtime: 1674990287
+2023/01/29 16:34:47 MainThread Utility, table_for_execution_total_time,line: 128     INFO | 
++------------------------------------------------------------------+------------------+
+|                                      Test's Total Execution Time |          0:00:30 |
++------------------------------------------------------------------+------------------+
+2023/01/29 16:34:47 MainThread RuntimeBasedScriptExecution, <module>,line: 375     INFO | ***********************Utility - End************************
+iptExecution, <module>,line: 375     INFO | ***********************Utility - End************************
