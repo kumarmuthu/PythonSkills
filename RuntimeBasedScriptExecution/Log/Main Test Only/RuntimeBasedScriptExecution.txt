@@ -1,0 +1,17 @@
+2023/01/29 16:40:03 MainThread Utility, logger_function,line: 54     INFO | Logger object is initiated...
+2023/01/29 16:40:03 MainThread RuntimeBasedScriptExecution, <module>,line: 360     INFO | **********************Utility - Start***********************
+2023/01/29 16:40:03 Thread-1 RuntimeBasedScriptExecution, run_dummy_test,line: 112     INFO | Testing the utility without child test...
+2023/01/29 16:40:03 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 210     INFO | Test will exit after: 5 sec...
+2023/01/29 16:40:03 Thread-1 RuntimeBasedScriptExecution, run_dummy_test,line: 114     INFO | Iter count: 1
+2023/01/29 16:40:04 Thread-1 RuntimeBasedScriptExecution, run_dummy_test,line: 114     INFO | Iter count: 2
+2023/01/29 16:40:05 Thread-1 RuntimeBasedScriptExecution, run_dummy_test,line: 114     INFO | Iter count: 3
+2023/01/29 16:40:06 Thread-1 RuntimeBasedScriptExecution, run_dummy_test,line: 114     INFO | Iter count: 4
+2023/01/29 16:40:07 Thread-1 RuntimeBasedScriptExecution, run_dummy_test,line: 114     INFO | Iter count: 5
+2023/01/29 16:40:08 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 241     INFO | Main test - Reached the script's timeout value, So killing/Stopping the script execution!.
+2023/01/29 16:40:08 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 243     INFO | Main test - Elapsed runtime!: 1674990608
+2023/01/29 16:40:08 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 244     INFO | Main test - Time Summary Report:: Start time: 1674990603, Current time: 1674990607, Elapsed runtime: 1674990608
+2023/01/29 16:40:08 MainThread Utility, table_for_execution_total_time,line: 128     INFO | 
++------------------------------------------------------------------+------------------+
+|                                      Test's Total Execution Time |          0:00:05 |
++------------------------------------------------------------------+------------------+
+2023/01/29 16:40:08 MainThread RuntimeBasedScriptExecution, <module>,line: 375     INFO | ***********************Utility - End************************

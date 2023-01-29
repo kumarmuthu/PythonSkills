@@ -1,0 +1,76 @@
+2023/01/29 16:29:32 MainThread Utility, logger_function,line: 54     INFO | Logger object is initiated...
+2023/01/29 16:29:32 MainThread RuntimeBasedScriptExecution, <module>,line: 360     INFO | **********************Utility - Start***********************
+2023/01/29 16:29:32 Thread-1 RuntimeBasedScriptExecution, child_job,line: 137     INFO | Child job is running...
+2023/01/29 16:29:32 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 210     INFO | Test will exit after: 30 sec...
+2023/01/29 16:29:32 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:29:32 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:29:33 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:29:34 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:29:35 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 4
+2023/01/29 16:29:36 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:29:36 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674989976
+2023/01/29 16:29:36 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674989972, Current time: 1674989976, Elapsed runtime: 1674989976
+2023/01/29 16:29:36 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 186     INFO | Job Total Time: 0:00:04
+2023/01/29 16:29:36 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:29:36 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:29:37 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:29:38 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:29:40 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:29:40 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674989980
+2023/01/29 16:29:40 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674989976, Current time: 1674989980, Elapsed runtime: 1674989980
+2023/01/29 16:29:40 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 186     INFO | Job Total Time: 0:00:04
+2023/01/29 16:29:40 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:29:40 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:29:41 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:29:42 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:29:43 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 4
+2023/01/29 16:29:44 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:29:44 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674989984
+2023/01/29 16:29:44 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674989980, Current time: 1674989984, Elapsed runtime: 1674989984
+2023/01/29 16:29:44 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 186     INFO | Job Total Time: 0:00:04
+2023/01/29 16:29:44 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:29:44 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:29:46 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:29:47 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:29:48 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:29:48 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674989988
+2023/01/29 16:29:48 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674989984, Current time: 1674989988, Elapsed runtime: 1674989988
+2023/01/29 16:29:48 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 186     INFO | Job Total Time: 0:00:04
+2023/01/29 16:29:48 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:29:48 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:29:49 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:29:50 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:29:51 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 4
+2023/01/29 16:29:52 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:29:52 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674989992
+2023/01/29 16:29:52 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674989988, Current time: 1674989992, Elapsed runtime: 1674989992
+2023/01/29 16:29:53 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 186     INFO | Job Total Time: 0:00:04
+2023/01/29 16:29:53 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:29:53 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:29:54 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:29:55 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:29:56 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 4
+2023/01/29 16:29:57 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:29:57 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674989997
+2023/01/29 16:29:57 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674989993, Current time: 1674989997, Elapsed runtime: 1674989997
+2023/01/29 16:29:57 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 186     INFO | Job Total Time: 0:00:04
+2023/01/29 16:29:57 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:29:57 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:29:58 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:29:59 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:30:01 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 228     INFO | ***************Main test - POST TEST - Start****************
+2023/01/29 16:30:01 Thread-2 RuntimeBasedScriptExecution, run_post_test,line: 353     INFO | Video Summary Report:: Total video count: 0, Executed video count: 0
+2023/01/29 16:30:01 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 235     INFO | Successfully executed the POST TEST...
+2023/01/29 16:30:01 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 186     INFO | Job Total Time: None
+2023/01/29 16:30:01 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 236     INFO | ****************Main test - POST TEST - End*****************
+2023/01/29 16:30:01 Thread-1 RuntimeBasedScriptExecution, run_loop_test,line: 194     INFO | Summary for Loop test - Job spent time(s): 29
+2023/01/29 16:30:02 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 241     INFO | Main test - Reached the script's timeout value, So killing/Stopping the script execution!.
+2023/01/29 16:30:02 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 243     INFO | Main test - Elapsed runtime!: 1674990002
+2023/01/29 16:30:02 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 244     INFO | Main test - Time Summary Report:: Start time: 1674989972, Current time: 1674990001, Elapsed runtime: 1674990002
+2023/01/29 16:30:02 MainThread Utility, table_for_execution_total_time,line: 128     INFO | 
++------------------------------------------------------------------+------------------+
+|                                      Test's Total Execution Time |          0:00:30 |
++------------------------------------------------------------------+------------------+
+2023/01/29 16:30:02 MainThread RuntimeBasedScriptExecution, <module>,line: 375     INFO | ***********************Utility - End************************
+--------------------------------------+------------------+
+2023/01/29 16:30:02 MainThread RuntimeBasedScriptExecution, <module>,line: 375     INFO | ***********************Utility - End************************

@@ -1,0 +1,25 @@
+2023/01/29 16:32:44 MainThread Utility, logger_function,line: 54     INFO | Logger object is initiated...
+2023/01/29 16:32:44 MainThread RuntimeBasedScriptExecution, <module>,line: 360     INFO | **********************Utility - Start***********************
+2023/01/29 16:32:44 Thread-1 RuntimeBasedScriptExecution, child_job,line: 137     INFO | Child job is running...
+2023/01/29 16:32:44 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 210     INFO | Test will exit after: 30 sec...
+2023/01/29 16:32:44 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 1
+2023/01/29 16:32:44 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 265     INFO | Job Test will exit after: 4 sec...
+2023/01/29 16:32:45 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 2
+2023/01/29 16:32:46 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 3
+2023/01/29 16:32:47 child1 RuntimeBasedScriptExecution, run_child_job,line: 148     INFO | Iter count: 4
+2023/01/29 16:32:48 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 279     INFO | Job - Reached the timeout value!.
+2023/01/29 16:32:48 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 280     INFO | Job - Elapsed runtime!: 1674990168
+2023/01/29 16:32:48 child2 RuntimeBasedScriptExecution, child_runtime_monitor,line: 281     INFO | Job - Summary Report:: Start time: 1674990164, Current time: 1674990168, Elapsed runtime: 1674990168
+2023/01/29 16:32:48 Thread-1 RuntimeBasedScriptExecution, child_job,line: 165     INFO | Summary for Non-Loop test  - Job spent time(s): 4
+2023/01/29 16:33:13 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 228     INFO | ***************Main test - POST TEST - Start****************
+2023/01/29 16:33:13 Thread-2 RuntimeBasedScriptExecution, run_post_test,line: 353     INFO | Video Summary Report:: Total video count: 0, Executed video count: 0
+2023/01/29 16:33:13 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 235     INFO | Successfully executed the POST TEST...
+2023/01/29 16:33:13 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 236     INFO | ****************Main test - POST TEST - End*****************
+2023/01/29 16:33:14 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 241     INFO | Main test - Reached the script's timeout value, So killing/Stopping the script execution!.
+2023/01/29 16:33:14 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 243     INFO | Main test - Elapsed runtime!: 1674990194
+2023/01/29 16:33:14 Thread-2 RuntimeBasedScriptExecution, main_test_runtime_monitor,line: 244     INFO | Main test - Time Summary Report:: Start time: 1674990164, Current time: 1674990193, Elapsed runtime: 1674990194
+2023/01/29 16:33:14 MainThread Utility, table_for_execution_total_time,line: 128     INFO | 
++------------------------------------------------------------------+------------------+
+|                                      Test's Total Execution Time |          0:00:30 |
++------------------------------------------------------------------+------------------+
+2023/01/29 16:33:14 MainThread RuntimeBasedScriptExecution, <module>,line: 375     INFO | ***********************Utility - End************************
