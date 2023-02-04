@@ -1,0 +1,12 @@
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, logger_function,line: 52     INFO | Logger object is initiated...
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, <module>,line: 106     INFO | **********TEST START**********
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, runtime_converter,line: 94     INFO | Days:Hours:Minutes:Seconds-> 0:0:300:0
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, runtime_converter,line: 94     INFO | Days:Hours:Minutes:Seconds-> 0:0:600:0
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, runtime_converter,line: 94     INFO | Days:Hours:Minutes:Seconds-> 0:0:1200:0
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, runtime_converter,line: 94     INFO | Days:Hours:Minutes:Seconds-> 0:0:120:0
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, runtime_converter,line: 94     INFO | Days:Hours:Minutes:Seconds-> 0:0:240:0
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, runtime_converter,line: 94     INFO | Days:Hours:Minutes:Seconds-> 0:0:480:0
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, <module>,line: 234     INFO | Original dict after update: {'main_test': {'main_test_total_run_time': 2945, 'base_test': {'base_test_total_run_time': 2940, 'base_test1': {'child_test_total_run_time': 2100, 'child_test1': {'child_test_run_time': '5m'}, 'child_test2': {'child_test_run_time': '10m'}, 'child_test3': {'child_test_run_time': '20m'}}, 'base_test2': {'child_test_total_run_time': 840, 'child_test1': {'child_test_run_time': '2m'}, 'child_test2': {'child_test_run_time': '4m'}, 'child_test4': {'child_test_run_time': '8m'}}}}}
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, <module>,line: 235     INFO | ******************************
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, <module>,line: 236     INFO | Final dict after update: {'main_test': {'main_test_total_run_time': 2945, 'base_test': {'base_test_total_run_time': 2940, 'base_test1': {'child_test_total_run_time': 2100, 'child_test1': {'child_test_run_time': '5m'}, 'child_test2': {'child_test_run_time': '10m'}, 'child_test3': {'child_test_run_time': '20m'}}, 'base_test2': {'child_test_total_run_time': 840, 'child_test1': {'child_test_run_time': '2m'}, 'child_test2': {'child_test_run_time': '4m'}, 'child_test4': {'child_test_run_time': '8m'}}}}}
+2023/02/04 17:12:27 MainThread UpdateAllTotalRuntime, <module>,line: 237     INFO | ***********TEST END***********
