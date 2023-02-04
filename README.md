@@ -3,24 +3,21 @@
 ## Covered topics:
 * **
 * **Import(import two class and importlib utils)**
+* **Singleton**
 * **Argparse**
-* **Logger (file handling/HTML logger)**
+* **Logging (file handling/HTML logger)**
 * **Regular expression**
-* **Random function**
 * **Decorators**
 * **JSON[dump(s)/load(s)]**
-* **Pyotp**
 * **Recursive function**
 * **Error handling**
 * **Thread(threading)**
 * **Abstraction**
 * **Encapsulation**
 * **Polymorphism(Overriding)**
-  * ***defined polymorphic functions***
-  * ***Polymorphism with class methods***
-  * ***Polymorphism with Inheritance***
-  * ***Polymorphism with a Function and objects***
 * **Inheritance**
+* **Random function**
+* **Pyotp**
 * **
 ### Own Utils(utility/apps):
 * **Python Decorator Skip During Runtime**
