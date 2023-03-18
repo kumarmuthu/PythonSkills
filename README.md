@@ -18,6 +18,7 @@
 * **Inheritance**
 * **Random function**
 * **Pyotp**
+* **ProgressBar(tqdm)**
 * **
 ### Own Utils(utility/apps):
 * **Python Decorator Skip During Runtime**
@@ -30,4 +31,5 @@
 * **Windows 'systeminfo' cmd parse logic**
 * **Runtime Based Script Execution(Multi-threads to run Main test and Child test)**
 * **Update All Total Runtime (Calculate and Update all total runtime [child, base and main] from Dictionary)**
+* **Python ProgressBar (tqdm [Based on runtime])**
 * **
