@@ -11,6 +11,7 @@
 
 if we comment it out the line:53, the progress bar will keep updating the progress percentage in one line
 ***
+
 **Example:**
 
 User given time: 30sec
