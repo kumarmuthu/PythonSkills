@@ -1,0 +1,306 @@
+***********	Start	************
+Every sec! 5704122.14
+Every sec! 5704123.14
+Every sec! 5704124.14
+Every sec! 5704125.14
+Every sec! 5704126.14
+In-Progress...:   0%|          | 0/100 [00:00<?, ?it/s]Calculated percentage(%): 270
+Display percentage(%): 30
+Every sec! 5704127.14
+Every sec! 5704128.14
+Every sec! 5704129.14
+Every sec! 5704130.14
+Every sec! 5704131.14
+Every sec! 5704132.14
+Every sec! 5704133.14
+Every sec! 5704134.14
+Every sec! 5704135.14
+Every sec! 5704136.14
+Every sec! 5704137.14
+Every sec! 5704138.14
+Every sec! 5704139.14
+Every sec! 5704140.14
+Every sec! 5704141.14
+Every sec! 5704142.14
+Every sec! 5704143.14
+Every sec! 5704144.14
+Every sec! 5704145.14
+Every sec! 5704146.14
+Every sec! 5704147.14
+Every sec! 5704148.14
+Every sec! 5704149.14
+Every sec! 5704150.14
+Every sec! 5704151.14
+Every sec! 5704152.14
+Every sec! 5704153.14
+Every sec! 5704154.14
+Every sec! 5704155.14
+Every sec! 5704156.14
+Every sec! 5704157.14
+Every sec! 5704158.14
+Every sec! 5704159.14
+Every sec! 5704160.14
+Every sec! 5704161.14
+Every sec! 5704162.14
+Every sec! 5704163.14
+Every sec! 5704164.14
+Every sec! 5704165.14
+Every sec! 5704166.14
+Every sec! 5704167.14
+Every sec! 5704168.14
+Every sec! 5704169.14
+Every sec! 5704170.14
+Every sec! 5704171.14
+Every sec! 5704172.14
+Every sec! 5704173.14
+Every sec! 5704174.14
+Every sec! 5704175.14
+Every sec! 5704176.14
+Every sec! 5704177.14
+Every sec! 5704178.14
+Every sec! 5704179.14
+Every sec! 5704180.14
+Every sec! 5704181.156
+Every sec! 5704182.14
+Every sec! 5704183.14
+Every sec! 5704184.14
+Every sec! 5704185.14
+Every sec! 5704186.14
+Every sec! 5704187.14
+Every sec! 5704188.14
+Every sec! 5704189.14
+Every sec! 5704190.14
+Every sec! 5704191.14
+Every sec! 5704192.14
+Every sec! 5704193.14
+Every sec! 5704194.14
+Every sec! 5704195.14
+Every sec! 5704196.14
+Every sec! 5704197.14
+Every sec! 5704198.14
+Every sec! 5704199.234
+Every sec! 5704200.14
+Every sec! 5704201.14
+Every sec! 5704202.14
+Every sec! 5704203.14
+Every sec! 5704204.14
+Every sec! 5704205.14
+Every sec! 5704206.14
+Every sec! 5704207.14
+Every sec! 5704208.14
+Every sec! 5704209.14
+Every sec! 5704210.14
+Every sec! 5704211.14
+Every sec! 5704212.14
+Every sec! 5704213.14
+Every sec! 5704214.14
+Every sec! 5704215.14
+Every sec! 5704216.14
+Every sec! 5704217.14
+Every sec! 5704218.14
+Every sec! 5704219.14
+Every sec! 5704220.14
+Every sec! 5704221.14
+Every sec! 5704222.14
+Every sec! 5704223.14
+Every sec! 5704224.14
+Every sec! 5704225.14
+Every sec! 5704226.14
+Every sec! 5704227.14
+Every sec! 5704228.14
+Every sec! 5704229.14
+Every sec! 5704230.14
+Every sec! 5704231.14
+Every sec! 5704232.14
+Every sec! 5704233.14
+Every sec! 5704234.14
+Every sec! 5704235.14
+Every sec! 5704236.14
+Every sec! 5704237.14
+Every sec! 5704238.14
+Every sec! 5704239.14
+Every sec! 5704240.14
+Every sec! 5704241.14
+Every sec! 5704242.14
+Every sec! 5704243.14
+Every sec! 5704244.14
+Every sec! 5704245.14
+Every sec! 5704246.14
+Every sec! 5704247.14
+Every sec! 5704248.14
+Every sec! 5704249.14
+Every sec! 5704250.14
+Every sec! 5704251.14
+Every sec! 5704252.14
+Every sec! 5704253.14
+Every sec! 5704254.14
+Every sec! 5704255.14
+Every sec! 5704256.14
+Every sec! 5704257.14
+Every sec! 5704258.14
+Every sec! 5704259.14
+Every sec! 5704260.14
+Every sec! 5704261.14
+Every sec! 5704262.14
+Every sec! 5704263.14
+Every sec! 5704264.14
+Every sec! 5704265.14
+Every sec! 5704266.14
+Every sec! 5704267.14
+Every sec! 5704268.14
+Every sec! 5704269.14
+Every sec! 5704270.14
+Every sec! 5704271.14
+Every sec! 5704272.14
+Every sec! 5704273.14
+Every sec! 5704274.14
+Every sec! 5704275.14
+Every sec! 5704276.156
+Every sec! 5704277.14
+Every sec! 5704278.14
+Every sec! 5704279.14
+Every sec! 5704280.14
+Every sec! 5704281.14
+Every sec! 5704282.14
+Every sec! 5704283.14
+Every sec! 5704284.14
+Every sec! 5704285.14
+Every sec! 5704286.14
+Every sec! 5704287.14
+Every sec! 5704288.14
+Every sec! 5704289.14
+Every sec! 5704290.14
+Every sec! 5704291.14
+Every sec! 5704292.156
+Every sec! 5704293.14
+Every sec! 5704294.14
+Every sec! 5704295.14
+Every sec! 5704296.14
+Every sec! 5704297.14
+Every sec! 5704298.14
+Every sec! 5704299.14
+Every sec! 5704300.14
+Every sec! 5704301.14
+Every sec! 5704302.203
+Every sec! 5704303.14
+Every sec! 5704304.14
+Every sec! 5704305.14
+Every sec! 5704306.14
+Every sec! 5704307.14
+Every sec! 5704308.14
+Every sec! 5704309.14
+Every sec! 5704310.14
+Every sec! 5704311.14
+Every sec! 5704312.14
+Every sec! 5704313.14
+Every sec! 5704314.14
+Every sec! 5704315.14
+Every sec! 5704316.14
+Every sec! 5704317.14
+Every sec! 5704318.14
+Every sec! 5704319.14
+Every sec! 5704320.14
+Every sec! 5704321.14
+Every sec! 5704322.14
+Every sec! 5704323.14
+Every sec! 5704324.14
+Every sec! 5704325.14
+Every sec! 5704326.14
+Every sec! 5704327.14
+Every sec! 5704328.14
+Every sec! 5704329.14
+Every sec! 5704330.14
+Every sec! 5704331.14
+Every sec! 5704332.14
+Every sec! 5704333.187
+Every sec! 5704334.156
+Every sec! 5704335.14
+Every sec! 5704336.14
+Every sec! 5704337.14
+Every sec! 5704338.14
+Every sec! 5704339.14
+Every sec! 5704340.14
+Every sec! 5704341.14
+Every sec! 5704342.14
+Every sec! 5704343.14
+Every sec! 5704344.14
+Every sec! 5704345.14
+Every sec! 5704346.14
+Every sec! 5704347.14
+Every sec! 5704348.14
+Every sec! 5704349.14
+Every sec! 5704350.14
+Every sec! 5704351.14
+Every sec! 5704352.14
+Every sec! 5704353.14
+Every sec! 5704354.14
+Every sec! 5704355.14
+Every sec! 5704356.14
+Every sec! 5704357.14
+Every sec! 5704358.14
+Every sec! 5704359.14
+Every sec! 5704360.14
+Every sec! 5704361.14
+Every sec! 5704362.14
+Every sec! 5704363.14
+Every sec! 5704364.14
+Every sec! 5704365.14
+Every sec! 5704366.14
+Every sec! 5704367.14
+Every sec! 5704368.14
+Every sec! 5704369.14
+Every sec! 5704370.14
+Every sec! 5704371.14
+Every sec! 5704372.14
+Every sec! 5704373.14
+Every sec! 5704374.14
+Every sec! 5704375.14
+Every sec! 5704376.14
+Every sec! 5704377.14
+Every sec! 5704378.14
+Every sec! 5704379.14
+Every sec! 5704380.14
+Every sec! 5704381.14
+Every sec! 5704382.14
+Every sec! 5704383.14
+Every sec! 5704384.14
+Every sec! 5704385.14
+Every sec! 5704386.14
+Every sec! 5704387.14
+Every sec! 5704388.14
+Every sec! 5704389.14
+Every sec! 5704390.14
+Every sec! 5704391.14
+In-Progress...:  70%|███████   | 70/100 [04:24<01:53,  3.78s/it]Every sec! 5704392.14
+In-Progress...:  71%|███████   | 71/100 [04:25<01:48,  3.73s/it]Every sec! 5704393.14
+In-Progress...:  72%|███████▏  | 72/100 [04:26<01:42,  3.65s/it]Every sec! 5704394.14
+In-Progress...:  73%|███████▎  | 73/100 [04:27<01:35,  3.55s/it]Every sec! 5704395.14
+In-Progress...:  74%|███████▍  | 74/100 [04:28<01:28,  3.42s/it]Every sec! 5704396.14
+In-Progress...:  75%|███████▌  | 75/100 [04:29<01:21,  3.25s/it]Every sec! 5704397.14
+In-Progress...:  76%|███████▌  | 76/100 [04:30<01:13,  3.06s/it]Every sec! 5704398.14
+In-Progress...:  77%|███████▋  | 77/100 [04:31<01:04,  2.82s/it]Every sec! 5704399.14
+In-Progress...:  78%|███████▊  | 78/100 [04:32<00:56,  2.57s/it]Every sec! 5704400.14
+In-Progress...:  79%|███████▉  | 79/100 [04:33<00:48,  2.32s/it]Every sec! 5704401.14
+In-Progress...:  80%|████████  | 80/100 [04:34<00:41,  2.07s/it]Every sec! 5704402.14
+In-Progress...:  81%|████████  | 81/100 [04:35<00:35,  1.84s/it]Every sec! 5704403.14
+In-Progress...:  82%|████████▏ | 82/100 [04:36<00:29,  1.65s/it]Every sec! 5704404.14
+In-Progress...:  83%|████████▎ | 83/100 [04:37<00:25,  1.50s/it]Every sec! 5704405.14
+In-Progress...:  84%|████████▍ | 84/100 [04:39<00:21,  1.37s/it]Every sec! 5704406.14
+In-Progress...:  85%|████████▌ | 85/100 [04:40<00:19,  1.28s/it]Every sec! 5704407.14
+In-Progress...:  86%|████████▌ | 86/100 [04:41<00:16,  1.20s/it]Every sec! 5704408.14
+In-Progress...:  87%|████████▋ | 87/100 [04:42<00:14,  1.15s/it]Every sec! 5704409.14
+In-Progress...:  88%|████████▊ | 88/100 [04:43<00:13,  1.11s/it]Every sec! 5704410.14
+In-Progress...:  89%|████████▉ | 89/100 [04:44<00:11,  1.09s/it]Every sec! 5704411.14
+In-Progress...:  90%|█████████ | 90/100 [04:45<00:10,  1.07s/it]Every sec! 5704412.14
+In-Progress...:  91%|█████████ | 91/100 [04:46<00:09,  1.06s/it]Every sec! 5704413.14
+In-Progress...:  92%|█████████▏| 92/100 [04:47<00:08,  1.05s/it]Every sec! 5704414.14
+In-Progress...:  93%|█████████▎| 93/100 [04:48<00:07,  1.04s/it]Every sec! 5704415.14
+In-Progress...:  94%|█████████▍| 94/100 [04:49<00:06,  1.04s/it]Every sec! 5704416.14
+In-Progress...:  95%|█████████▌| 95/100 [04:50<00:05,  1.03s/it]Every sec! 5704417.14
+In-Progress...:  96%|█████████▌| 96/100 [04:51<00:04,  1.03s/it]Every sec! 5704418.14
+In-Progress...:  97%|█████████▋| 97/100 [04:52<00:03,  1.03s/it]Every sec! 5704419.14
+In-Progress...:  98%|█████████▊| 98/100 [04:53<00:02,  1.03s/it]Every sec! 5704420.14
+In-Progress...:  99%|█████████▉| 99/100 [04:54<00:01,  1.03s/it]Every sec! 5704421.14
+Finished task.: 100%|██████████| 100/100 [04:55<00:00,  2.95s/it]
+Every sec! 5704422.14
+**	End	***
