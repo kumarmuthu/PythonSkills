@@ -1,3 +1,10 @@
+__version__ = "2023.03.18.01"
+__author__ = "Muthukumar Subramanian"
+
+'''
+Python Progress Bar Utility, the progress bar will display based on the user-given runtime
+'''
+
 from tqdm import tqdm
 import time
 import threading
