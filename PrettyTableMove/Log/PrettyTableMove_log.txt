@@ -1,0 +1,107 @@
+C:\Python38\python.exe C:\Users\ADMIN\Documents\GitHub\PythonSkills\PrettyTableMove\Script\PrettyTableMove.py
+****** Scenario-1 Start ******
+                                        +----------------------+
+                                        |       My Table       |
+                                        +-------+-----+--------+
+                                        |  Name | Age | Gender |
+                                        +-------+-----+--------+
+                                        | Muthu |  28 |  Male  |
+                                        | Kumar |  32 |  Male  |
+                                        +-------+-----+--------+
+******* Scenario-1 End *******
+****** Scenario-2 Start ******
+Position: 0
++----------------------+
+|       My Table       |
++-------+-----+--------+
+|  Name | Age | Gender |
++-------+-----+--------+
+| Muthu |  28 |  Male  |
+| Kumar |  32 |  Male  |
++-------+-----+--------+
+Position: 20
+                    +----------------------+
+                    |       My Table       |
+                    +-------+-----+--------+
+                    |  Name | Age | Gender |
+                    +-------+-----+--------+
+                    | Muthu |  28 |  Male  |
+                    | Kumar |  32 |  Male  |
+                    +-------+-----+--------+
+Position: 40
+                                        +----------------------+
+                                        |       My Table       |
+                                        +-------+-----+--------+
+                                        |  Name | Age | Gender |
+                                        +-------+-----+--------+
+                                        | Muthu |  28 |  Male  |
+                                        | Kumar |  32 |  Male  |
+                                        +-------+-----+--------+
+Position: 60
+                                                            +----------------------+
+                                                            |       My Table       |
+                                                            +-------+-----+--------+
+                                                            |  Name | Age | Gender |
+                                                            +-------+-----+--------+
+                                                            | Muthu |  28 |  Male  |
+                                                            | Kumar |  32 |  Male  |
+                                                            +-------+-----+--------+
+Position: 80
+                                                                                +----------------------+
+                                                                                |       My Table       |
+                                                                                +-------+-----+--------+
+                                                                                |  Name | Age | Gender |
+                                                                                +-------+-----+--------+
+                                                                                | Muthu |  28 |  Male  |
+                                                                                | Kumar |  32 |  Male  |
+                                                                                +-------+-----+--------+
+******* Scenario-2 End *******
+****** Scenario-3 Start ******
+Position: 80
+                                                                                +----------------------+
+                                                                                |       My Table       |
+                                                                                +-------+-----+--------+
+                                                                                |  Name | Age | Gender |
+                                                                                +-------+-----+--------+
+                                                                                | Muthu |  28 |  Male  |
+                                                                                | Kumar |  32 |  Male  |
+                                                                                +-------+-----+--------+
+Position: 60
+                                                            +----------------------+
+                                                            |       My Table       |
+                                                            +-------+-----+--------+
+                                                            |  Name | Age | Gender |
+                                                            +-------+-----+--------+
+                                                            | Muthu |  28 |  Male  |
+                                                            | Kumar |  32 |  Male  |
+                                                            +-------+-----+--------+
+Position: 40
+                                        +----------------------+
+                                        |       My Table       |
+                                        +-------+-----+--------+
+                                        |  Name | Age | Gender |
+                                        +-------+-----+--------+
+                                        | Muthu |  28 |  Male  |
+                                        | Kumar |  32 |  Male  |
+                                        +-------+-----+--------+
+Position: 20
+                    +----------------------+
+                    |       My Table       |
+                    +-------+-----+--------+
+                    |  Name | Age | Gender |
+                    +-------+-----+--------+
+                    | Muthu |  28 |  Male  |
+                    | Kumar |  32 |  Male  |
+                    +-------+-----+--------+
+Position: 0
++----------------------+
+|       My Table       |
++-------+-----+--------+
+|  Name | Age | Gender |
++-------+-----+--------+
+| Muthu |  28 |  Male  |
+| Kumar |  32 |  Male  |
++-------+-----+--------+
+******* Scenario-3 End *******
+
+Process finished with exit code 0
