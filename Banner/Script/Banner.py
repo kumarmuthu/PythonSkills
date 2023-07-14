@@ -19,6 +19,21 @@ banner_text = "Muthukumar S"
 get_all_fonts = pyfiglet.FigletFont.getFonts()
 # print(f"Get all fonts: {get_all_fonts}")
 
+# Scenario: Particular Font with Blue color text
+# font = get_all_fonts[403]  # 97, 403 OR 
+font = 'standard'
+length = len(banner_text)
+font_obj = pyfiglet.Figlet(font=font)
+# Calculate width, it is based on the banner text and fonts
+font_width = sum([font_obj.renderText(char).find('\n') for char in banner_text])
+width = max(length, font_width)
+output_text = pyfiglet.figlet_format(banner_text, font=font, width=width, justify='center')
+text_colour = Fore.LIGHTBLUE_EX
+bg_colour = Back.BLACK
+# Print the banner
+formatted_banner_text = f"{text_colour}{output_text}{Style.RESET_ALL}"
+print(formatted_banner_text)
+
 # Random number for fonts
 get_random_number_for_font = random.randint(0, len(get_all_fonts) - 1)
 
