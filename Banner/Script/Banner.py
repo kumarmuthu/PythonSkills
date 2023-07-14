@@ -20,7 +20,8 @@ get_all_fonts = pyfiglet.FigletFont.getFonts()
 # print(f"Get all fonts: {get_all_fonts}")
 
 # Scenario: Particular Font with Blue color text
-font = get_all_fonts[403]  # 97, 403
+# font = get_all_fonts[403]  # 97, 403 OR 
+font = 'standard'
 length = len(banner_text)
 font_obj = pyfiglet.Figlet(font=font)
 # Calculate width, it is based on the banner text and fonts
