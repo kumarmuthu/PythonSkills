@@ -559,6 +559,15 @@ Pass by reference: Reference to the actual object is passed.
 Changing the value of the new object will change the value of the original object.
 In Python, arguments are passed by reference, i.e., reference to the actual object is passed.
 
+Type of print:
+Ecxample:
+    a = 10
+    print(a)                                        # Normal print
+    print("Variable 'a' output is: ", a)            # comma to separate the string and the variable
+    print("Variable 'a' output is: {}".format(a))   # The curly braces {} act as placeholders
+    print(f"Variable 'a' output is: {a}")           # Formatted String
+    print("Variable 'a' output is: %s" % a)         # also known as an f-string
+
 Slice:
 l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #   0, 1, 2, 3, 4, 5, 6, 7, 8, 9            ==>>> positive order
