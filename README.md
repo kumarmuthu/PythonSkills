@@ -12,6 +12,9 @@
 * **Recursive function**
 * **Error handling**
 * **Thread(threading)**
+* **Asyncio**
+* **Multiprocessing**
+* **Subprocess**
 * **Abstraction**
 * **Encapsulation**
 * **Polymorphism(Overriding)**
