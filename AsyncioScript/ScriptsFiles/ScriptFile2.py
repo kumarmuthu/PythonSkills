@@ -1,3 +1,6 @@
+__version__ = "2024.02.02.01"
+__author__ = "Muthukumar Subramanian"
+
 import time
 import asyncio
 
