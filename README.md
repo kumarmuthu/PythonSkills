@@ -13,6 +13,7 @@
 * **Error handling**
 * **Thread(threading)**
 * **Asyncio**
+* **Concurrent(concurrent.futures)**
 * **Multiprocessing**
 * **Subprocess**
 * **Abstraction**
