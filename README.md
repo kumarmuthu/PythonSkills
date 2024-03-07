@@ -23,6 +23,7 @@
 * **Random function**
 * **Pyotp**
 * **ProgressBar(tqdm)**
+* **Signal**
 * **
 ### Own Utils(utility/apps):
 * **Python Decorator Skip During Runtime**
