@@ -17,7 +17,7 @@ jobs:
   build:
     env:
       # python_version: ${{secrets.PYTHONVERSION}}
-      python_version: ${{variables.PYTHONVERSION}}
+      python_version: ${{secrets.PYTHON_VERSION}}
     runs-on: windows-latest
     steps:
     - name: Update Node.js 20
