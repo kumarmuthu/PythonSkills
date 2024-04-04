@@ -31,7 +31,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 colorama selenium dateutil xlsxwriter prettytable tqdm pyodbc pyotp 
+        pip install flake8 colorama selenium python-dateutil xlsxwriter prettytable tqdm pyodbc pyotp 
         if (Test-Path requirements.txt) { pip install -r requirements.txt }
     - name: Lint with flake8
       run: |
