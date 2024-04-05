@@ -1,0 +1,77 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: PythonSkills CI and CD
+
+on:
+  workflow_dispatch:
+  # push:
+  #   branches: [ "master" ]
+  # pull_request:
+  #   branches: [ "master" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    env:
+      # python_version: ${{secrets.PYTHONVERSION}}
+      python_version: ${{vars.PYTHON_VERSION}}
+    runs-on: windows-latest
+    steps:
+    - name: Update Node.js 20
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{env.python_version}}
+      uses: actions/setup-python@v3
+      with:
+        # python-version: "3.10.5"
+        python-version: ${{env.python_version}}  # Using the environment variable
+    # - name: Install dependencies - Linux
+    #   run: |
+    #     python -m pip install --upgrade pip
+    #     pip install flake8
+    #     if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Install dependencies - Windows
+      run: |
+        python -m pip install --upgrade pip
+        # instead of requirements.txt
+        pip install flake8 colorama selenium python-dateutil xlsxwriter prettytable tqdm pyodbc pyotp pyfiglet
+        # If needs requirements.txt
+        if (Test-Path requirements.txt) { pip install -r requirements.txt }
+    - name: Lint with flake8
+      run: |
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    # - name: Run PythonSkills CI and CD
+    #   shell: cmd
+    #   run: |
+    #     for /r %%i in (*.py) do (
+    #        python "%%i"
+    #     )
+    - name: List Python scripts
+      shell: cmd
+      run: |
+        echo ===== CONFIG-START =====
+        echo Listing Python scripts:
+        for /r %%i in (*.py) do (
+          echo %%i
+        )
+        echo End of script list.
+        echo ===== CONFIG-END =====
+        echo.
+    - name: Run PythonSkills CI and CD
+      shell: cmd
+      run: |
+         echo ===== RUN START =====
+         for /r %%i in (*.py) do (
+            echo Running script: %%i
+            python "%%i"
+            echo Finished running script: %%i
+         )
+         echo ===== RUN END =====
+         echo.
+
